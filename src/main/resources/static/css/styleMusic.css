@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+}
+
+.navbar img {
+  width: 350px;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.navbar li {
+  margin: 0 50px;
+}
+
+.navbar a {
+  font-family: '/fonts/OpenSans-Regular.ttf';
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  letter-spacing: 1px;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+.image1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.title-img {
+  margin-top: 230px;
+  display: flex;
+  max-width: 20%;
+  margin-left: 20%;
+}
+
+/* Estilos del contenido */
+.content {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+/* Estilos del contenedor */
+.text-content {
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 20px;
+  width: 100%;
+  top: 100px;
+  left: 0;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas o columnas */
+  justify-content: flex-start; /* Alinea los elementos al comienzo del contenedor */
+  align-items: flex-start; /* Alinea los elementos al inicio del eje vertical */
+}
+
+.album-title {
+  margin-left: 3%;
+}
+
+/* Estilos del texto */
+.texto-img {
+  max-width: 40%; /* Ajusta el ancho de la imagen */
+  margin-left: 3%;
+  margin-right: 5%;
+  float:left;
+}
+
+.description {
+  margin-left: 3%;
+  margin-top: 10px;
+}
+
+.list-container {
+  max-width: 30%; /* Ajusta el ancho de la lista */
+  margin-left: 40px; /* Espacio entre la imagen y la lista */
+}
+
+.list-container h2 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.list-container ol {
+  list-style-type: decimal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.list-container li {
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  margin-bottom: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Estilos generales del cuerpo */
+body {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('images/bg-interior-billboard.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Definición de la fuente personalizada */
+@font-face {
+  font-family: 'Densmore';
+  src: url('/fonts/densmore.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Estilos de la sección de contacto */
+.contact-section {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-content h2 {
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  margin-bottom: 10px;
+}

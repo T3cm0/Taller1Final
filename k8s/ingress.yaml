@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+   name: bftest
+   namespace: thymeleaf
+spec:
+   ingressClassName: public
+   rules:
+   - host: gruposjaveriana.dynaco.co
+     http:
+       paths:
+       - path: /bftest
+         pathType: Prefix
+         backend:
+           service:
+             name: bftest
+             port:
+               number: 8080

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Estilos de la barra de navegación */
+  .navbar {
+    background-color: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+  }
+  
+  .navbar img {
+    width: 350px;
+    display: block;
+    margin: 20px auto 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  
+  .navbar li {
+    margin: 0 50px;
+  }
+  
+  .navbar a {
+    font-family: 'OpenSans-Regular.ttf';
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    letter-spacing: 1px;
+  }
+  
+  .navbar a:hover {
+    color: grey;
+  }
+  
+  .image1 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .title-img {
+    margin-top: 230px;
+    display: flex;
+    max-width: 20%;
+    margin-left: 20%;
+  }
+  
+  /* Estilos del contenido */
+  .content {
+    display: flex;
+    margin-top: 7px;
+  }
+  
+  /* Estilos del contenedor */
+  .text-content {
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 20px; /* Agregar relleno al contenedor */
+    width: 60%; /* Establecer el ancho*/
+    top: 100px; /* Ajustar el margen superior para dejar espacio para la barra de navegación */
+    margin: 50px auto;
+  }
+  
+  /* Estilos del texto */
+  .text {
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'OpenSans-Regular.ttf';
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+  }
+  
+  .text-content p {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de la imagen */
+  .texto-img {
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    max-height: 500px;
+
+  }
+  
+  .clear {
+    clear:both;
+  }
+  
+  /* Estilos generales del cuerpo */
+  body {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/bg-interior-billboard.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Definición de la fuente personalizada */
+  @font-face {
+    font-family: 'Densmore';
+    src: url('/fonts/densmore.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .h1 {
+    text-align: center;
+  }
+  
+  /* Estilos de la sección de contacto */
+  .contact-section {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-content p {
+    margin-bottom: 10px;
+  }
